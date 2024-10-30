@@ -13,25 +13,25 @@ const posts = [
     {
         titolo :  "titolo_2",
         contenuto : "contenuto_2",
-        immagine : "placeholder-image1.jpg",
+        immagine : "placeholder-image2.jpg",
         tags: ["tag_3", "tag_4"]
     },
     {
         titolo :  "titolo_3",
         contenuto : "contenuto_3",
-        immagine : "placeholder-image1.jpg",
+        immagine : "placeholder-image3.jpg",
         tags: ["tag_5", "tag_6"]
     },
     {
         titolo :  "titolo_4",
         contenuto : "contenuto_4",
-        immagine : "placeholder-image1.jpg",
+        immagine : "placeholder-image4.jpg",
         tags: ["tag_7", "tag_8"]
     },
     {
         titolo :  "titolo_5",
         contenuto : "contenuto_5",
-        immagine : "placeholder-image1.jpg",
+        immagine : "placeholder-image5.jpg",
         tags: ["tag_9", "tag_10"]
     },
 ];
