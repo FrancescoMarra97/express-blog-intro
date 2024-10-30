@@ -5,12 +5,36 @@ const host = "http://127.0.0.1";
 
 const posts = [
     {
-        titolo :  "titolo",
-        contenuto : "contenuto",
+        titolo :  "titolo_1",
+        contenuto : "contenuto_1",
         immagine : "placeholder-image1.jpg",
         tags: ["tag_1", "tag_2"]
     },
-]
+    {
+        titolo :  "titolo_2",
+        contenuto : "contenuto_2",
+        immagine : "placeholder-image1.jpg",
+        tags: ["tag_3", "tag_4"]
+    },
+    {
+        titolo :  "titolo_3",
+        contenuto : "contenuto_3",
+        immagine : "placeholder-image1.jpg",
+        tags: ["tag_5", "tag_6"]
+    },
+    {
+        titolo :  "titolo_4",
+        contenuto : "contenuto_4",
+        immagine : "placeholder-image1.jpg",
+        tags: ["tag_7", "tag_8"]
+    },
+    {
+        titolo :  "titolo_5",
+        contenuto : "contenuto_5",
+        immagine : "placeholder-image1.jpg",
+        tags: ["tag_9", "tag_10"]
+    },
+];
 
 
 app.get("/", (req, res) => {
@@ -21,5 +45,5 @@ app.listen(port, () => {
 });
 
 app.get("/posts", (req, res) =>{
-    res.json("")
+    res.json(posts)
 })
